@@ -1,9 +1,6 @@
-# basic thrift hello world
+# Basic thrift hello world
 
 Server written in java, and two clients (java and python).
 
-Call 
+Simply run `./setup.sh` to generate the thrift code before running the server and clients.
 
-    thrift -r --gen python simple.thrift
-
-and move the gen-py into the python folder to try out the python client.
