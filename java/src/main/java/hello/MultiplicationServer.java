@@ -12,7 +12,7 @@ public class MultiplicationServer {
 
     public static MultiplicationService.Processor processor;
 
-    public static void main(String [] args) {
+    public static void main(String[] args) {
         try {
             handler = new MultiplicationHandler();
             processor = new MultiplicationService.Processor(handler);
